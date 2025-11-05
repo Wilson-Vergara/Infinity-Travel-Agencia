@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinity Travel Agencia</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo-container">
+      <img src="images/logo.jpg" alt="Logo Infinity Travel" class="logo">
+      <h1>Infinity Travel Agencia</h1>
+    </div>
+    <nav id="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#reseñas">Reseñas</a>
+      <a href="#reservas">Reservas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </header>
+
+  <!-- SECCIÓN HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h2>Explora el mundo con nosotros 🌍</h2>
+      <p>Destinos inolvidables, experiencias únicas y la mejor atención personalizada.</p>
+      <a href="#reservas" class="btn-hero">Reserva tu viaje</a>
+    </div>
+  </section>
+
+  <!-- SECCIÓN RESEÑAS -->
+  <section id="reseñas" class="section">
+    <h2>🧭 Reseñas de Viajeros</h2>
+    <div class="reseñas">
+      <div class="card">
+        <p>“Una experiencia increíble, todo fue perfecto desde el vuelo hasta el hotel.”</p>
+        <span>– Laura M.</span>
+      </div>
+      <div class="card">
+        <p>“Excelente atención, me ayudaron con cada detalle de mi viaje a Cancún.”</p>
+        <span>– Carlos G.</span>
+      </div>
+      <div class="card">
+        <p>“Viajar con Infinity fue como cumplir un sueño, ¡gracias por todo!”</p>
+        <span>– Natalia R.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN RESERVAS -->
+  <section id="reservas" class="section">
+    <h2>🌴 Reservas</h2>
+    <p>Haz tu búsqueda aquí:</p>
+    <section class="onlyBooker_section onlyBooker_fixed">
+      <div id="ptw-container" class="ptw-horizontal-search bookerContainer">
+        <script type="text/javascript" src="https://widgets.priceres.com.mx/travel-agencyweb/jsonpBooker/startWidget?container=ptw-container&UseConfigs=false&IsHorizontal=true&WhiteLabelId=infinity-travel"></script>
+      </div>
+    </section>
+  </section>
+
+  <!-- SECCIÓN CONTACTO -->
+  <section id="contacto" class="section">
+    <h2>📬 Contáctanos</h2>
+    <form id="contact-form" action="https://formspree.io/f/tu_codigo_aqui" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <!-- SECCIÓN REDES SOCIALES -->
+  <section id="redes" class="section redes">
+    <h2>🌐 Síguenos</h2>
+    <div class="social-links">
+      <a href="https://www.facebook.com/infinitytravelagencia/" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/infinitytravelagencia/" target="_blank">Instagram</a>
+      <a href="https://www.tiktok.com/@infinitytravelagencia" target="_blank">TikTok</a>
+    </div>
+  </section>
+
+  <!-- BOTÓN WHATSAPP -->
+  <a href="https://wa.me/5219984625542" class="whatsapp-btn" target="_blank">💬</a>
+
+  <footer>
+    <p>© 2025 Infinity Travel Agencia. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
